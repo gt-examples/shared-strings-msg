@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "entries": {
+    "brc_f7gn4it1uyfywqk8z1dbfu87": {
+      "879f3a5f954ee8b75bf1e91f4ea9916b41c933e5beba7eb6362647a637c9c66d": {
+        "3b5f0e904698b74c40501c4ee38f1a93fe844340aa1c0cfe674ab5ca4d5a82f2": {
+          "es": {
+            "updatedAt": "2026-02-19T05:31:10.998Z",
+            "postProcessHash": "ea02d12885ad872130a98e6ee403b2795975ef0f5650a81eab3b909c9b3fe549"
+          },
+          "ja": {
+            "updatedAt": "2026-02-19T05:31:11.001Z",
+            "postProcessHash": "cd16361c9a199e2c6490e70ae5aa75470e8d4380fd534254b4b4a5fafd6859f9"
+          }
+        }
+      }
+    }
+  }
+}

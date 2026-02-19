@@ -1,0 +1,95 @@
+{
+  "0260f41d763d8370": "Las contraseñas no coinciden.",
+  "1095f8dc3484a575": "Componente de cliente",
+  "272235540e3e743e": "Etiquetas de estado",
+  "2ecf88ef9e8e4259": "Inicio",
+  "370aa80e162adbf6": "Activo",
+  "4cc495d17570d3e3": "Constantes de texto compartidas",
+  "4e3d3eea3ca947ef": "Mensajes del panel",
+  "511ac76ab62995a9": {
+    "c": [
+      {
+        "c": "Cómo funciona",
+        "i": 2,
+        "t": "h2"
+      },
+      {
+        "c": [
+          {
+            "c": [
+              {
+                "c": "msg()",
+                "i": 5,
+                "t": "code"
+              },
+              " codifica una cadena para su traducción en tiempo de compilación. Define todas las etiquetas de interfaz, mensajes de error y cadenas de estado en un único archivo compartido."
+            ],
+            "i": 4,
+            "t": "p"
+          },
+          {
+            "c": [
+              "En componentes de servidor, usa ",
+              {
+                "c": "getMessages()",
+                "i": 7,
+                "t": "code"
+              },
+              " para obtener una función de resolución. En componentes de cliente, usa el hook ",
+              {
+                "c": "useMessages()",
+                "i": 8,
+                "t": "code"
+              },
+              ". Ambos devuelven una función que resuelve cadenas codificadas al idioma actual."
+            ],
+            "i": 6,
+            "t": "p"
+          },
+          {
+            "c": "Las variables usan el formato de mensajes ICU. Los plurales, fechas y valores interpolados se gestionan automáticamente, con las reglas gramaticales correctas para cada idioma.",
+            "i": 9,
+            "t": "p"
+          }
+        ],
+        "i": 3,
+        "t": "div"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "603c6c35aa20e49d": "La contraseña debe tener al menos 8 caracteres.",
+  "62e379abae717114": "Errores de validación",
+  "6cecc47864c06b93": "Todas las siguientes cadenas se definen una única vez en un archivo de constantes compartidas y se resuelven según la configuración regional en tiempo de renderizado.",
+  "7deb6655f411b827": "Este campo es obligatorio.",
+  "81d52236602f6e74": "Componente de servidor",
+  "8e589c76d9bd6f9a": "Inactivo",
+  "a2ecf6e81ff7b311": {
+    "c": [
+      {
+        "c": "Constantes de cadenas compartidas entre componentes",
+        "i": 2,
+        "t": "h2"
+      },
+      {
+        "c": "Define cadenas traducibles una sola vez con msg() en un archivo compartido. Resuélvelas por idioma en componentes de servidor y cliente usando getMessages() y useMessages().",
+        "i": 3,
+        "t": "p"
+      },
+      {
+        "i": 4,
+        "t": "LanguageBadge"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "a88130677fa068d2": "Último acceso: {date}",
+  "cbdab6ecda6809af": "Pendiente de revisión",
+  "d07c8729df2be95f": "Tienes {count, plural, =0 {ningún elemento} =1 {un elemento} other {{count} elementos}} en tu cola.",
+  "d7f5747b6dfafb18": "¡Bienvenido de nuevo, {name}!",
+  "dab001c244dc4128": "Este nombre de usuario ya está en uso.",
+  "ed8b4e0c3af17205": "Cuenta suspendida",
+  "ff450b81a89e0dae": "Introduce una dirección de correo electrónico válida."
+}
