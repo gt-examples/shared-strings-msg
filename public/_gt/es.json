@@ -4,6 +4,8 @@
   "272235540e3e743e": "Etiquetas de estado",
   "2ecf88ef9e8e4259": "Inicio",
   "370aa80e162adbf6": "Activo",
+  "3de8f69bc7f9181f": "Insignias de estado",
+  "4c046652335430ed": "Mensajes dinámicos",
   "4cc495d17570d3e3": "Constantes de texto compartidas",
   "4e3d3eea3ca947ef": "Mensajes del panel",
   "511ac76ab62995a9": {
@@ -41,13 +43,13 @@
                 "i": 8,
                 "t": "code"
               },
-              ". Ambos devuelven una función que resuelve cadenas codificadas al idioma actual."
+              ". Ambos devuelven una función que resuelve cadenas codificadas a la configuración regional actual."
             ],
             "i": 6,
             "t": "p"
           },
           {
-            "c": "Las variables usan el formato de mensajes ICU. Los plurales, fechas y valores interpolados se gestionan automáticamente, con las reglas gramaticales correctas para cada idioma.",
+            "c": "Las variables usan el formato de mensaje ICU. Los plurales, las fechas y los valores interpolados se gestionan automáticamente, con las reglas gramaticales correctas para cada idioma.",
             "i": 9,
             "t": "p"
           }
@@ -61,9 +63,10 @@
   },
   "603c6c35aa20e49d": "La contraseña debe tener al menos 8 caracteres.",
   "62e379abae717114": "Errores de validación",
-  "6cecc47864c06b93": "Todas las siguientes cadenas se definen una única vez en un archivo de constantes compartidas y se resuelven según la configuración regional en tiempo de renderizado.",
+  "6cecc47864c06b93": "Todas las cadenas siguientes se definen solo una vez en un archivo de constantes compartidas y se resuelven según la configuración regional en tiempo de renderizado.",
   "7deb6655f411b827": "Este campo es obligatorio.",
   "81d52236602f6e74": "Componente de servidor",
+  "8a7942ae9f596325": "Cadenas de texto compartidas con msg() | Traducción general",
   "8e589c76d9bd6f9a": "Inactivo",
   "a2ecf6e81ff7b311": {
     "c": [
@@ -86,9 +89,10 @@
     "t": "div"
   },
   "a88130677fa068d2": "Último acceso: {date}",
+  "b83a3ce88009801d": "Constantes de cadenas de texto compartidas con msg(), resueltas por configuración regional mediante getMessages y useMessages.",
   "cbdab6ecda6809af": "Pendiente de revisión",
   "d07c8729df2be95f": "Tienes {count, plural, =0 {ningún elemento} =1 {un elemento} other {{count} elementos}} en tu cola.",
-  "d7f5747b6dfafb18": "¡Bienvenido de nuevo, {name}!",
+  "d7f5747b6dfafb18": "¡Hola de nuevo, {name}!",
   "dab001c244dc4128": "Este nombre de usuario ya está en uso.",
   "ed8b4e0c3af17205": "Cuenta suspendida",
   "ff450b81a89e0dae": "Introduce una dirección de correo electrónico válida."
