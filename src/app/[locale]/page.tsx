@@ -49,6 +49,34 @@ export default async function Home() {
         </div>
       </header>
 
+      <div className="bg-emerald-950 border-b border-emerald-800">
+        <div className="max-w-3xl mx-auto px-6 py-2.5">
+          <T>
+            <p className="text-xs text-emerald-300 text-center">
+              This is an example app built with{" "}
+              <a
+                href="https://generaltranslation.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-emerald-100"
+              >
+                General Translation
+              </a>
+              . View the{" "}
+              <a
+                href="https://github.com/gt-examples/shared-strings-msg"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-emerald-100"
+              >
+                source code
+              </a>
+              .
+            </p>
+          </T>
+        </div>
+      </div>
+
       <main className="max-w-3xl mx-auto px-6 py-12">
         <T>
           <div className="mb-12">
